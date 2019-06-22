@@ -1,0 +1,27 @@
+div#landing {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://bayreach.org/img/bayreach-directors-group.jpg);
+    background-size: cover;
+	padding-bottom: 37.5%;
+	max-height: 8rem;
+}
+
+div#banner {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://bayreach.org/img/bayreach-directors-group.jpg);
+    background-size: cover;
+	padding-bottom: 37.5%;
+	max-height: 6rem;
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+.banner {
+	max-width: 3rem;
+}
