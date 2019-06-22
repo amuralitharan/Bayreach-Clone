@@ -5,12 +5,20 @@ div#landing {
 	max-height: 8rem;
 }
 
-div#banner {
+div.banner {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://bayreach.org/img/bayreach-directors-group.jpg);
     background-size: cover;
-	padding-bottom: 37.5%;
-	max-height: 6rem;
+    padding: 13%;
+	max-height: 4rem;
 }
+
+div.footer {
+	background-color: blue;
+    background-size: cover;
+    padding: 13%;
+	max-height: 10px;
+}
+
 
 .container {
 	display: flex;
@@ -22,6 +30,6 @@ h1 {
 	font-size: 4rem;
 }
 
-.banner {
-	max-width: 3rem;
+body {
+	font-color: blue;
 }
